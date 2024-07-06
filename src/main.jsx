@@ -5,7 +5,7 @@ import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-rou
 import Accounts from './components/accounts/Accounts.jsx'
 import PrivacyPolicy from './components/accounts/PrivacyPolicy.jsx'
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path : "/",
     element : <Home/>
