@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Home from './Home.jsx'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom'
 import Accounts from './components/accounts/Accounts.jsx'
 import PrivacyPolicy from './components/accounts/PrivacyPolicy.jsx'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path : "/",
     element : <Home/>
