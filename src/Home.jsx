@@ -5,6 +5,8 @@ function Home() {
       <p>Hello There! this is the main function of this programe.</p>
 
       <p>This is the second line of page.</p>
+
+      <p>Update files</p>
     </>
   )
 }
